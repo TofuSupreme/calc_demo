@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+display: inline-flex;
+height: 500px;
+width: 575px;
+flex-wrap: wrap;
+background-color: black;
+}
+
+.flex-container > section > button{
+    width: 140px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+   justify-content: stretch;
+   align-content: space-between;
+
+}
+
+#display {
+    background-color:black;
+    color: white;
+    width: 575px;
+    text-align: right;
+    margin: auto;
+    line-height: 75px;
+    padding: 5px;
+    font-size: 24px;
+}
+#add {
+    background-color: #F4C6DF;
+}
+#subtract {
+    background-color: #F4C6DF;
+}
+
+#divide {
+    background-color: #F4C6DF;
+}
+
+#multiply {
+    background-color: #F4C6DF;
+}
+#equals {
+    background-color: #FF1493;
+    color: white;
+    padding-bottom: 3px;
+    line-height: 75px;
+    width: 575px;
+    font-size: 24px;
+}
