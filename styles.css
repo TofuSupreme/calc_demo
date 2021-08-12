@@ -6,7 +6,7 @@ main {
 
 .flex-container {
 display: inline-flex;
-height: 500px;
+height: 520px;
 width: 575px;
 flex-wrap: wrap;
 background-color: black;
@@ -19,8 +19,8 @@ background-color: black;
     text-align: center;
     line-height: 75px;
     font-size: 20px;
-   justify-content: stretch;
-   align-content: space-between;
+    justify-content: stretch;
+    align-content: space-between;
 
 }
 
@@ -30,23 +30,16 @@ background-color: black;
     width: 575px;
     text-align: right;
     margin: auto;
-    line-height: 75px;
-    padding: 5px;
+    padding: 1px;
     font-size: 24px;
 }
-#add {
+#add, #subtract, #divide, #multiply {
     background-color: #F4C6DF;
-}
-#subtract {
-    background-color: #F4C6DF;
+    cursor: pointer;
 }
 
-#divide {
-    background-color: #F4C6DF;
-}
-
-#multiply {
-    background-color: #F4C6DF;
+#topPart, #middlePart, #mid-BottomPart, #bottomPart {
+    margin: 4px;
 }
 #equals {
     background-color: #FF1493;
